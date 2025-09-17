@@ -1,1 +1,21 @@
+# Create a file named basic_operations.py.
+# In this file, you will define two variables: number1 and number2, with the values 10 and 5, respectively.
+# You do not need to write any functions or import any modules.
+# Calculate the sum, difference (by subtracting number2 from number1), and product of number1 and number2.
+# Print the results of each operation in the format: [operation] of [number1] and [number2] is [result].
+# When executed, your script should print the following (assuming number1 = 10 and number2 = 5):
 
+# Addition of 10 and 5 is 15
+# Subtraction of 10 and 5 is 5
+# Multiplication of 10 and 5 is 50
+
+number1 = 10
+number2 = 5
+addition = number1 + number2
+subtraction = number2 - number1
+multiplication = number1 * number2  
+
+
+print("Addition of 10 and 5 is 15")
+print("Subtraction of 10 and 5 is 5")
+print("Multiplication of 10 and 5 is 50")
